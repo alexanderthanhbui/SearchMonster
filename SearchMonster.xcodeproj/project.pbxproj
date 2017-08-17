@@ -7,12 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07D1A5CD7CF3EAFF51DE1E2B /* Pods_SearchMonster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB110B23F68C328341197ACF /* Pods_SearchMonster.framework */; };
 		84AFAD391F4511700031C957 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AFAD381F4511700031C957 /* AppDelegate.swift */; };
 		84AFAD3B1F4511700031C957 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AFAD3A1F4511700031C957 /* ViewController.swift */; };
 		84AFAD3E1F4511700031C957 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AFAD3C1F4511700031C957 /* Main.storyboard */; };
 		84AFAD401F4511700031C957 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84AFAD3F1F4511700031C957 /* Assets.xcassets */; };
 		84AFAD431F4511700031C957 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AFAD411F4511700031C957 /* LaunchScreen.storyboard */; };
 		84AFAD4E1F4511700031C957 /* SearchMonsterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AFAD4D1F4511700031C957 /* SearchMonsterUITests.swift */; };
+		84AFAD591F4521D20031C957 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AFAD581F4521D20031C957 /* Constants.swift */; };
+		84AFAD5B1F4530EF0031C957 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AFAD5A1F4530EF0031C957 /* Networking.swift */; };
+		84AFAD5E1F45322C0031C957 /* PlaceObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AFAD5D1F45322C0031C957 /* PlaceObject.swift */; };
+		84AFAD611F45592E0031C957 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AFAD601F45592E0031C957 /* CustomTableViewCell.swift */; };
+		84AFAD641F4584BF0031C957 /* PlaceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AFAD631F4584BF0031C957 /* PlaceTableViewController.swift */; };
+		84AFAD691F458A080031C957 /* PlaceDetailFirstCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AFAD681F458A080031C957 /* PlaceDetailFirstCustomTableViewCell.swift */; };
+		84AFAD6B1F458A1B0031C957 /* PlaceDetailSecondCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AFAD6A1F458A1B0031C957 /* PlaceDetailSecondCustomTableViewCell.swift */; };
+		84AFAD6D1F458A310031C957 /* PlaceDetailThirdCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AFAD6C1F458A310031C957 /* PlaceDetailThirdCustomTableViewCell.swift */; };
+		84AFAD6F1F458A4B0031C957 /* PlaceDetailFourthCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AFAD6E1F458A4B0031C957 /* PlaceDetailFourthCustomTableViewCell.swift */; };
+		84AFAD711F458B000031C957 /* PlaceDetailFifthCustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AFAD701F458B000031C957 /* PlaceDetailFifthCustomTableViewCell.swift */; };
+		84AFAD761F45E5970031C957 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AFAD751F45E5970031C957 /* Reachability.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1845E6AFAA297F3E2A271F45 /* Pods-SearchMonster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchMonster.release.xcconfig"; path = "Pods/Target Support Files/Pods-SearchMonster/Pods-SearchMonster.release.xcconfig"; sourceTree = "<group>"; };
 		84AFAD351F4511700031C957 /* SearchMonster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchMonster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84AFAD381F4511700031C957 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84AFAD3A1F4511700031C957 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +49,19 @@
 		84AFAD491F4511700031C957 /* SearchMonsterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchMonsterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84AFAD4D1F4511700031C957 /* SearchMonsterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchMonsterUITests.swift; sourceTree = "<group>"; };
 		84AFAD4F1F4511700031C957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84AFAD581F4521D20031C957 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		84AFAD5A1F4530EF0031C957 /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		84AFAD5D1F45322C0031C957 /* PlaceObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceObject.swift; sourceTree = "<group>"; };
+		84AFAD601F45592E0031C957 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		84AFAD631F4584BF0031C957 /* PlaceTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceTableViewController.swift; sourceTree = "<group>"; };
+		84AFAD681F458A080031C957 /* PlaceDetailFirstCustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceDetailFirstCustomTableViewCell.swift; sourceTree = "<group>"; };
+		84AFAD6A1F458A1B0031C957 /* PlaceDetailSecondCustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceDetailSecondCustomTableViewCell.swift; sourceTree = "<group>"; };
+		84AFAD6C1F458A310031C957 /* PlaceDetailThirdCustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceDetailThirdCustomTableViewCell.swift; sourceTree = "<group>"; };
+		84AFAD6E1F458A4B0031C957 /* PlaceDetailFourthCustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceDetailFourthCustomTableViewCell.swift; sourceTree = "<group>"; };
+		84AFAD701F458B000031C957 /* PlaceDetailFifthCustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceDetailFifthCustomTableViewCell.swift; sourceTree = "<group>"; };
+		84AFAD751F45E5970031C957 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		B4D952110FB33BCEDDD4D752 /* Pods-SearchMonster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchMonster.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SearchMonster/Pods-SearchMonster.debug.xcconfig"; sourceTree = "<group>"; };
+		FB110B23F68C328341197ACF /* Pods_SearchMonster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SearchMonster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07D1A5CD7CF3EAFF51DE1E2B /* Pods_SearchMonster.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +83,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		250CFA7C435C26EF2E6E057F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB110B23F68C328341197ACF /* Pods_SearchMonster.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		84AFAD2C1F4511700031C957 = {
 			isa = PBXGroup;
 			children = (
 				84AFAD371F4511700031C957 /* SearchMonster */,
 				84AFAD4C1F4511700031C957 /* SearchMonsterUITests */,
 				84AFAD361F4511700031C957 /* Products */,
+				B18FEB2FF955E4E6171AE00B /* Pods */,
+				250CFA7C435C26EF2E6E057F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +114,17 @@
 		84AFAD371F4511700031C957 /* SearchMonster */ = {
 			isa = PBXGroup;
 			children = (
+				84AFAD5C1F4532110031C957 /* Models */,
+				84AFAD5F1F4559060031C957 /* Views */,
+				84AFAD621F4584930031C957 /* Controllers */,
 				84AFAD381F4511700031C957 /* AppDelegate.swift */,
-				84AFAD3A1F4511700031C957 /* ViewController.swift */,
 				84AFAD3C1F4511700031C957 /* Main.storyboard */,
 				84AFAD3F1F4511700031C957 /* Assets.xcassets */,
 				84AFAD411F4511700031C957 /* LaunchScreen.storyboard */,
 				84AFAD441F4511700031C957 /* Info.plist */,
+				84AFAD581F4521D20031C957 /* Constants.swift */,
+				84AFAD5A1F4530EF0031C957 /* Networking.swift */,
+				84AFAD751F45E5970031C957 /* Reachability.swift */,
 			);
 			path = SearchMonster;
 			sourceTree = "<group>";
@@ -96,6 +138,61 @@
 			path = SearchMonsterUITests;
 			sourceTree = "<group>";
 		};
+		84AFAD5C1F4532110031C957 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84AFAD5D1F45322C0031C957 /* PlaceObject.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		84AFAD5F1F4559060031C957 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				84AFAD741F45E34E0031C957 /* SearchView */,
+				84AFAD671F4589E70031C957 /* PlaceDetail */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		84AFAD621F4584930031C957 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				84AFAD3A1F4511700031C957 /* ViewController.swift */,
+				84AFAD631F4584BF0031C957 /* PlaceTableViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		84AFAD671F4589E70031C957 /* PlaceDetail */ = {
+			isa = PBXGroup;
+			children = (
+				84AFAD681F458A080031C957 /* PlaceDetailFirstCustomTableViewCell.swift */,
+				84AFAD6A1F458A1B0031C957 /* PlaceDetailSecondCustomTableViewCell.swift */,
+				84AFAD6C1F458A310031C957 /* PlaceDetailThirdCustomTableViewCell.swift */,
+				84AFAD6E1F458A4B0031C957 /* PlaceDetailFourthCustomTableViewCell.swift */,
+				84AFAD701F458B000031C957 /* PlaceDetailFifthCustomTableViewCell.swift */,
+			);
+			name = PlaceDetail;
+			sourceTree = "<group>";
+		};
+		84AFAD741F45E34E0031C957 /* SearchView */ = {
+			isa = PBXGroup;
+			children = (
+				84AFAD601F45592E0031C957 /* CustomTableViewCell.swift */,
+			);
+			name = SearchView;
+			sourceTree = "<group>";
+		};
+		B18FEB2FF955E4E6171AE00B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4D952110FB33BCEDDD4D752 /* Pods-SearchMonster.debug.xcconfig */,
+				1845E6AFAA297F3E2A271F45 /* Pods-SearchMonster.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +200,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84AFAD521F4511700031C957 /* Build configuration list for PBXNativeTarget "SearchMonster" */;
 			buildPhases = (
+				E66A1CF65EF3E66219048E61 /* [CP] Check Pods Manifest.lock */,
 				84AFAD311F4511700031C957 /* Sources */,
 				84AFAD321F4511700031C957 /* Frameworks */,
 				84AFAD331F4511700031C957 /* Resources */,
+				2B8572F908CAE16C6AA567CC /* [CP] Embed Pods Frameworks */,
+				E9FBA622E08FC00950887530 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,13 +296,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2B8572F908CAE16C6AA567CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SearchMonster/Pods-SearchMonster-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E66A1CF65EF3E66219048E61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SearchMonster-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9FBA622E08FC00950887530 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SearchMonster/Pods-SearchMonster-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SearchMonster/Pods-SearchMonster-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84AFAD311F4511700031C957 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84AFAD611F45592E0031C957 /* CustomTableViewCell.swift in Sources */,
+				84AFAD6B1F458A1B0031C957 /* PlaceDetailSecondCustomTableViewCell.swift in Sources */,
+				84AFAD6F1F458A4B0031C957 /* PlaceDetailFourthCustomTableViewCell.swift in Sources */,
+				84AFAD641F4584BF0031C957 /* PlaceTableViewController.swift in Sources */,
 				84AFAD3B1F4511700031C957 /* ViewController.swift in Sources */,
+				84AFAD691F458A080031C957 /* PlaceDetailFirstCustomTableViewCell.swift in Sources */,
+				84AFAD6D1F458A310031C957 /* PlaceDetailThirdCustomTableViewCell.swift in Sources */,
 				84AFAD391F4511700031C957 /* AppDelegate.swift in Sources */,
+				84AFAD591F4521D20031C957 /* Constants.swift in Sources */,
+				84AFAD5E1F45322C0031C957 /* PlaceObject.swift in Sources */,
+				84AFAD5B1F4530EF0031C957 /* Networking.swift in Sources */,
+				84AFAD711F458B000031C957 /* PlaceDetailFifthCustomTableViewCell.swift in Sources */,
+				84AFAD761F45E5970031C957 /* Reachability.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,27 +506,33 @@
 		};
 		84AFAD531F4511700031C957 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4D952110FB33BCEDDD4D752 /* Pods-SearchMonster.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Y5256G3KXV;
 				INFOPLIST_FILE = SearchMonster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.animenim.SearchMonster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		84AFAD541F4511700031C957 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1845E6AFAA297F3E2A271F45 /* Pods-SearchMonster.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Y5256G3KXV;
 				INFOPLIST_FILE = SearchMonster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.animenim.SearchMonster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -410,6 +583,7 @@
 				84AFAD541F4511700031C957 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84AFAD551F4511700031C957 /* Build configuration list for PBXNativeTarget "SearchMonsterUITests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +592,7 @@
 				84AFAD571F4511700031C957 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
